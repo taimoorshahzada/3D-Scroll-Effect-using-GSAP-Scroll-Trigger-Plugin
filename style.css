@@ -1,0 +1,93 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Neutral Face";
+  text-transform: uppercase;
+  background-color: red;
+  color: black;
+}
+
+.upper-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: lighter;
+  display: flex;
+}
+
+.upper-container span,
+.upper-container h1 {
+  padding: 10px 50px;
+}
+
+.upper-container span {
+  font-size: 20px;
+}
+
+.upper-container h1 {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.imageBoard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imageBoard .cardImage {
+  opacity: 0;
+  height: 50vh;
+}
+
+.scaleableImg {
+  position: absolute;
+  width: 250px;
+}
+
+#scaleableImg1 {
+  top: 10%;
+  left: 9%;
+}
+
+#scaleableImg2 {
+  top: 35%;
+  left: 30%;
+}
+#scaleableImg3 {
+  top: 60%;
+  left: 15%;
+}
+#scaleableImg4 {
+  top: 60%;
+  left: 70%;
+}
+#scaleableImg5 {
+  top: 30%;
+  left: 55%;
+}
+
+.cardImage {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
